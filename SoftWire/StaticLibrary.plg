@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StaticLibrary - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP7B5C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/StaticLibrary.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Assembler.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\CodeGenerator.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Encoding.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Error.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Instruction.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\InstructionSet.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Linker.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Loader.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Macro.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Operand.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Parser.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Scanner.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Synthesizer.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\Token.cpp"
+"D:\2.5_HDD\DRIVE_2TB\MACOSX_BACKUP\task\Decompile\TaintAnalysis\softwire\SoftWire\TokenList.cpp"
+]
+Creating command line "cl.exe @C:\Users\user\AppData\Local\Temp\RSP7B5C.tmp" 
+Creating temporary file "C:\Users\user\AppData\Local\Temp\RSP7B5D.tmp" with contents
+[
+/nologo /out:"Debug\SoftWire.lib" 
+.\Debug\Assembler.obj
+.\Debug\CodeGenerator.obj
+.\Debug\Encoding.obj
+.\Debug\Error.obj
+.\Debug\Instruction.obj
+.\Debug\InstructionSet.obj
+.\Debug\Linker.obj
+.\Debug\Loader.obj
+.\Debug\Macro.obj
+.\Debug\Operand.obj
+.\Debug\Parser.obj
+.\Debug\Scanner.obj
+.\Debug\Synthesizer.obj
+.\Debug\Token.obj
+.\Debug\TokenList.obj
+]
+Creating command line "link.exe -lib @C:\Users\user\AppData\Local\Temp\RSP7B5D.tmp"
+<h3>Output Window</h3>
+Compiling...
+Assembler.cpp
+CodeGenerator.cpp
+Encoding.cpp
+Error.cpp
+Instruction.cpp
+InstructionSet.cpp
+Linker.cpp
+Loader.cpp
+Macro.cpp
+Operand.cpp
+Parser.cpp
+Scanner.cpp
+Synthesizer.cpp
+Token.cpp
+TokenList.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+SoftWire.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
